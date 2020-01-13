@@ -1,0 +1,227 @@
+@media screen and (max-width: 1612px) {
+    html {
+        font-size: 15px;
+    }
+
+    .nav-first__item {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 1506px) {
+    html {
+        font-size: 14px;
+    }
+
+    .nav-first__item {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    html {
+        font-size: 13px;
+    }
+
+    .nav-first__item {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 1186px) {
+    html {
+        font-size: 12px;
+    }
+
+    .first__img,
+    .last-img {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    html {
+        font-size: 11px;
+    }
+
+    .adaptive-button-general {
+        transform: scale(0.8);
+        z-index: 20;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+
+    .nav-first__item,
+    .nav-last__item {
+        display: none;
+    }
+
+    .adaptive-button-general {
+        transform: scale(0.8);
+    }
+
+    .header-content-wrapper {
+        display: none;
+    }
+
+    header {
+        background: url(../img/Background_shape.png) no-repeat right;
+    }
+
+    .section-first {
+        background: url(../img/Background_shape.png) no-repeat right top;
+    }
+
+    .section-second {
+        background: url(../img/h.png) no-repeat right;
+    }
+
+    .adaptive-menu,
+    .nav__item__responsive {
+        display: flex;
+
+    }
+
+    .adaptive-murr-logo {
+        display: inline-block;
+    }
+
+    .adaptive-nav-last__item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .adaptive-button__item {
+        display: inline-block;
+    }
+
+    .adaptive-button {
+        width: 14.5455rem;
+        height: 14.5455rem;
+        background: #b105f9;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .adaptive-button-general {
+        width: 14.5455rem;
+        height: 14.5455rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 3.6364rem;
+        right: 1.3636rem;
+        cursor: pointer;
+        box-shadow: 0 20px 20px #7506a4;
+
+    }
+
+    .adaptive-button__logo {
+        width: 14.5455rem;
+        height: 14.5455rem;
+        background: #7506a4;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 1.1818rem;
+        z-index: -2;
+    }
+
+    .adaptive-button-logo-wraper img {
+        width: 140px;
+        height: 140px;
+        z-index: 1;
+    }
+
+    .adaptive-button-general:active .adaptive-button {
+        bottom: -0.9091rem;
+    }
+
+    .adaptive-button-general:active .adaptive-button-logo-wraper {
+        margin-top: 2.1818rem;
+    }
+
+    .section-content-wrp-first__item {
+        display: block;
+    }
+
+    .section-cont-wrapper-first {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12.7273rem;
+    }
+
+    iframe {
+        width: 100%;
+        height: 34.8182rem;
+    }
+
+    .adaptive-nav-second-last__item {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    html {
+        font-size: 10px;
+    }
+
+    .adaptive-button-general {
+        transform: scale(0.7);
+    }
+
+    .adaptive-button-logo-wraper img {
+
+        transform: scale(0.96);
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .header-content-but-first {
+        left: 50%;
+        margin-left: -6.1rem;
+    }
+
+    .adaptive-button-general {
+        z-index: 20;
+    }
+
+    .adaptive-button-general {
+        transform: scale(0.7);
+    }
+
+    .adaptive-nav-last__item,
+    .adaptive-nav-second-last__item {
+        transform: scale(1.2);
+    }
+
+}
+
+@media screen and (max-width: 408px) {
+    html {
+        font-size: 8px;
+    }
+
+    .adaptive-button-general {
+        transform: scale(0.6);
+    }
+
+    .adaptive-button-logo-wraper img {
+        transform: scale(0.77);
+    }
+}
