@@ -51,29 +51,46 @@
 }
 
 @media screen and (max-width: 1044px) {
-
-    .nav-first__item,
     .nav-last__item {
         display: none;
     }
     .adaptive-button-general {
         transform: scale(0.8);
     }
-
-    .header-content-wrapper {
+    .nav-general__item{
         display: none;
     }
-
+    .header-text-wrapper__first, .heder-text-wrapper {
+        width: 100%;
+    }
+    .header-content-wrapper,.header-content-wrapper__first{
+        display: none;
+    }
+    .burger-wrapper{
+        display: block;
+        cursor: pointer;
+    }
+    .burger:first-child{
+        margin-top: 0;
+    }
+    .burger{
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #B105F9;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
     header {
-        background: url(../img/Background_shape.png) no-repeat right;
+        background: url(../img/smile-adaptive.svg) no-repeat right;
     }
 
     .section-first {
-        background: url(../img/Background_shape.png) no-repeat right top;
+        background: url(../img/smile-adaptive.svg) no-repeat right top;
     }
 
     .section-second {
-        background: url(../img/h.png) no-repeat right;
+        background: url(../img/adaptive-cat.svg) no-repeat right;
     }
 
     .adaptive-menu,
@@ -172,6 +189,7 @@
         justify-content: center;
         margin-bottom: 10rem;
     }
+
 }
 
 @media screen and (max-width: 470px) {
@@ -184,8 +202,10 @@
     }
 
     .adaptive-button-logo-wraper img {
-
         transform: scale(0.96);
+    }
+    .nav-but-wrapper-last .header-content-last-child__item, .nav-but-wrapper-last, .header-content-but-last-child{
+        width: 100%;
     }
 }
 
@@ -202,11 +222,6 @@
 
     .adaptive-button-general {
         transform: scale(0.7);
-    }
-
-    .adaptive-nav-last__item,
-    .adaptive-nav-second-last__item {
-        transform: scale(1.2);
     }
 
 }

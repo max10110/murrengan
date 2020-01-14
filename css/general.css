@@ -61,7 +61,7 @@ a {
     position: sticky;
     top: 0;
     background-color: #151515;
-    height: 8.0625rem;
+    height: 6rem;
     z-index: 40;
 }
 
@@ -117,7 +117,9 @@ a {
     border-radius: 1.563rem;
     transition: background-color 0.3s;
 }
-
+.burger-wrapper{
+    display: none;
+}
 .nav-last__item .nav-button-first__item {
     background-color: #00a54a;
     width: 7.375rem;
@@ -221,7 +223,7 @@ h3 {
     height: 53.31rem;
 }
 
-.header-content-wrapper svg{
+.header-content-wrapper img{
     width: 110%;
     height: 50rem;  
 }
@@ -343,19 +345,18 @@ iframe {
 }
 
 .nav-first__item img {
-    width: 4rem;
-    height: 4rem;
+    width: 2.875rem;
+    height: 2.875rem;
     transition: all 0.25s;
 }
 
 .nav-first__item img:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .nav-but-wrapper-last .header-content-last-child__item {
     margin-left: 0;
     width: 19.25rem;
-    height: 3.1875rem;
     background-color: #b105f9;
     font-size: 1.375rem;
 }
