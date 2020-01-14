@@ -56,7 +56,9 @@
     .nav-last__item {
         display: none;
     }
-
+    .nav{
+        width: 6rem;
+    }
     .adaptive-button-general {
         transform: scale(0.8);
     }
