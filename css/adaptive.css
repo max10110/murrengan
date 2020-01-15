@@ -75,11 +75,11 @@
     }
     .burger{
         display: block;
-        width: 30px;
-        height: 3px;
+        width: 1.875rem;
+        height: 2px;
         background-color: #B105F9;
         border-radius: 20px;
-        margin-top: 5px;
+        margin-top: 0.3125rem;
     }
     header {
         background: url(../img/smile-adaptive.svg) no-repeat right;
@@ -105,7 +105,7 @@
 
     .adaptive-nav-last__item {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .adaptive-button__item {
@@ -239,3 +239,4 @@
         transform: scale(0.77);
     }
 }
+

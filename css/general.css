@@ -65,11 +65,6 @@ a {
     z-index: 40;
 }
 
-.nav-wrapper{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
 .nav-general__item {
     margin-left: 2.1875rem;
     font-size: 1.125rem;
