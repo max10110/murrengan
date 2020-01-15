@@ -12,58 +12,58 @@
 </head>
 
 <body>
-    <nav class="nav">
+    <nav class="menu">
         <div class="wrapper">
-            <div class="nav-first__item">
-                <a href="#"><img src="img/murr_logo.svg" onerror="this.onerror=null;"></a>
-                <a href="#home" class="nav-general__item">Главная</a>
-                <a href="#about-us" class="nav-general__item">О нас</a>
-                <a href="#develop" class="nav-general__item">Разработка</a>
+            <div class="menu__link">
+                <a href="#"><img src="img/murr_logo.svg"></a>
+                <a href="#home" class="menu__item">Главная</a>
+                <a href="#about-us" class="menu__item">О нас</a>
+                <a href="#develop" class="menu__item">Разработка</a>
             </div>
-            <div class="nav-last__item">
-                <div class="nav-but-wrapper">
-                    <a href="#" class="nav-button__item nav-button-first__item">Вход</a>
-                    <div class="nav-but__item nav-but-first__item"></div>
+            <div class="button__container">
+                <div class="button__wrapper">
+                    <a href="#" class="button__item enter-button">Вход</a>
+                    <div class="button-layer enter-button__layer"></div>
                 </div>
-                <div class="nav-but-wrapper">
-                    <a href="#" class="nav-button__item nav-button-last__item">Регистрация</a>
-                    <div class="nav-but__item nav-but-last__item"></div>
+                <div class="button__wrapper">
+                    <a href="#" class="button__item registration-button">Регистрация</a>
+                    <div class="button-layer registration-button__layer"></div>
                 </div>
             </div>
-            <a class="burger-wrapper" href="#">
-                <span class="burger"></span>
-                <span class="burger"></span>
-                <span class="burger"></span>
+            <a class="burger__wrapper" href="#">
+                <span class="burger__item"></span>
+                <span class="burger__item"></span>
+                <span class="burger__item"></span>
             </a>
         </div>
     </nav>
     <header id="home">
-        <div class="header-content wrapper">
-            <div class="header-text-wrapper__first">
-                <h1 class="content-title">Мурренган - это новая социальная сеть</h1>
-                <h3 class="content-desc">Новая социальная сеть для соединения людей с общими интересам</h3>
-                <div class="nav-last__item adaptive-nav-last__item">
-                    <div class="nav-but-wrapper nav-but-wrapper-first">
-                        <a href="#" class="nav-button__item header-content-first__item">Помочь</a>
-                        <div class="nav-but__item header-content-but-first"> </div>
+        <div class="block__wrapper wrapper">
+            <div class="block-text__wrapper home-text__wrapper">
+                <h1 class="title">Мурренган - это новая социальная сеть</h1>
+                <h3 class="subtitle">Новая социальная сеть для соединения людей с общими интересам</h3>
+                <div class="button__container adaptive-button__container">
+                    <div class="button__wrapper">
+                        <a href="#" class="button__item help-button">Помочь</a>
+                        <div class="button-layer help-button__layer"></div>
                     </div>
-                    <div class="nav-but-wrapper nav-but-wrapper-first">
-                        <a href="#" class="nav-button__item header-content-last__item">Узнать больше</a>
-                        <div class="nav-but__item header-content-but-last"></div>
+                    <div class="button__wrapper">
+                        <a href="#" class="button__item optimized-button">Узнать больше</a>
+                        <div class="button-layer optimized-button__layer"></div>
                     </div>
                 </div>
             </div>
-            <div class="header-content-wrapper__first">
-                <img src="img/smile.svg" onerror="this.onerror=null;">            
+            <div class="block-img__wrapper">
+                <img src="img/smile.svg">
             </div>
         </div>
     </header>
-    <section class="section-first" id="about-us">
+    <section class="about-section" id="about-us">
         <div class="wrapper">
-            <div class="section-content-wrp-first">
+            <div>
                 <h2>О нас</h2>
-                <div class="section-content-wrp-first__item">
-                    <div class="section-cont-wrapper-first">
+                <div class="about-section-content__wrapper">
+                    <div class="about-section-text__wrapper">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                             incididunt
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -84,24 +84,23 @@
             </div>
         </div>
     </section>
-    <section class="section-second" id="develop">
-        <div class="header-content wrapper">
-            <div class="heder-text-wrapper">
-                <h2 class="content-title">Присоеди&shy;ниться к разработке</h2>
+    <section class="develop-section" id="develop">
+        <div class="block__wrapper wrapper">
+            <div class="block-text__wrapper develop-text__wrapper">
+                <h2 class="title">Присоеди&shy;ниться к разработке</h2>
                 <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud
                 </h3>
-                <div class="nav-last__item adaptive-nav-second-last__item">
-                    <div class="nav-but-wrapper nav-but-wrapper-last">
-                        <a href="#"
-                            class="nav-button__item header-content-last__item header-content-last-child__item">Присоединиться</a>
-                        <div class="nav-but__item header-content-but-last-child"></div>
+                <div class="button__container adaptive-join-button__container">
+                    <div class="button__wrapper join-button__wrapper">
+                        <a href="#" class="button__item optimized-button join-button">Присоединиться</a>
+                        <div class="button-layer join-button__layer"></div>
                     </div>
                 </div>
             </div>
-            <div class="header-content-wrapper">
-                <img src="img/cat.svg" onerror="this.onerror=null;">
+            <div class="header-img__wrapper">
+                <img src="img/cat.svg">
             </div>
         </div>
     </section>

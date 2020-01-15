@@ -51,29 +51,37 @@
 }
 
 @media screen and (max-width: 1044px) {
-    .nav-last__item {
+    .button__container {
         display: none;
     }
+
     .adaptive-button-general {
         transform: scale(0.8);
     }
-    .nav-general__item{
+
+    .menu__item {
         display: none;
     }
-    .header-text-wrapper__first, .heder-text-wrapper {
+
+    .block-text__wrapper {
         width: 100%;
     }
-    .header-content-wrapper,.header-content-wrapper__first{
+
+    .header-content-wrapper,
+    .block-img__wrapper {
         display: none;
     }
-    .burger-wrapper{
+
+    .burger__wrapper {
         display: block;
         cursor: pointer;
     }
-    .burger:first-child{
+
+    .burger__item:first-child {
         margin-top: 0;
     }
-    .burger{
+
+    .burger__item {
         display: block;
         width: 1.875rem;
         height: 2px;
@@ -81,15 +89,16 @@
         border-radius: 20px;
         margin-top: 0.3125rem;
     }
+
     header {
         background: url(../img/smile-adaptive.svg) no-repeat right;
     }
 
-    .section-first {
+    .about-section {
         background: url(../img/smile-adaptive.svg) no-repeat right top;
     }
 
-    .section-second {
+    .develop-section {
         background: url(../img/adaptive-cat.svg) no-repeat right;
     }
 
@@ -103,7 +112,7 @@
         display: inline-block;
     }
 
-    .adaptive-nav-last__item {
+    .adaptive-button__container {
         display: flex;
         justify-content: flex-start;
     }
@@ -169,11 +178,11 @@
         margin-top: 2.1818rem;
     }
 
-    .section-content-wrp-first__item {
+    .about-section-content__wrapper {
         display: block;
     }
 
-    .section-cont-wrapper-first {
+    .about-section-text__wrapper {
         width: 100%;
         margin-right: 0;
         margin-bottom: 12.7273rem;
@@ -184,7 +193,7 @@
         height: 34.8182rem;
     }
 
-    .adaptive-nav-second-last__item {
+    .adaptive-join-button__container {
         display: flex;
         justify-content: center;
         margin-bottom: 10rem;
@@ -204,14 +213,17 @@
     .adaptive-button-logo-wraper img {
         transform: scale(0.96);
     }
-    .nav-but-wrapper-last .header-content-last-child__item, .nav-but-wrapper-last, .header-content-but-last-child{
+
+    .join-button,
+    .join-button__wrapper,
+    .join-button__layer {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 410px) {
 
-    .header-content-but-first {
+    .help-button__layer {
         left: 50%;
         margin-left: -6.1rem;
     }
@@ -239,4 +251,3 @@
         transform: scale(0.77);
     }
 }
-
