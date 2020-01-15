@@ -136,12 +136,6 @@ a {
     z-index: 40;
 }
 
-.nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
 .menu__item {
     margin-left: 2.1875rem;
     font-size: 1.125rem;
@@ -214,22 +208,22 @@ a {
     background-color: #00a54a;
 }
 
-.optimized-button {
+.read-button {
     background-color: #292929;
     width: 17rem;
 }
 
-.optimized-button {
+.read-button {
     margin-left: 2.25rem;
 }
 
-.help-button {
+.optimized-button {
     background-color: #b105f9;
     width: 12.1875rem;
 }
 
-.button__container .optimized-button,
-.button__container .help-button {
+.button__container .read-button,
+.button__container .optimized-button {
     font-size: 1.4375rem;
     height: 3.375rem;
 }
@@ -241,7 +235,7 @@ a {
 }
 
 .button__container .registration-button:hover,
-.button__container .optimized-button:hover {
+.button__container .read-button:hover {
     background-color: #414141;
 }
 
@@ -259,7 +253,7 @@ a {
     width: 7.375rem;
 }
 
-.help-button__layer {
+.optimized-button__layer {
     left: 0;
     top: 0.5rem;
     background-color: #7506a4;
@@ -267,7 +261,7 @@ a {
     height: 3.3125rem;
 }
 
-.optimized-button__layer {
+.read-button__layer {
     right: 0;
     top: 0.5rem;
     background-color: #1d1d1d;
@@ -311,48 +305,13 @@ h3 {
     width: 50%;
 }
 
-.adaptive-murr-logo {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #b105f9;
-    text-shadow: 2px 5px 15px #b105f9;
-}
-
-.header-content-wrapper {
-    width: 40%;
-}
-
 .develop-text__wrapper {
     width: 50%;
-}
-
-.adaptive-logo {
-    width: 1.7rem;
-    height: 1.9rem;
-}
-
-.adaptive-menu {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.adaptive-menu div {
-    border: 0.5rem solid transparent;
-    border-top: 0.5rem solid #fff;
-    margin-top: 0.5rem;
-    margin-left: 0.3rem;
 }
 
 h2 {
     font-size: 3rem;
     margin-bottom: 3.25rem;
-}
-
-.adaptive-murr-logo,
-.adaptive-menu,
-.nav__item__responsive {
-    display: none;
 }
 
 p {
@@ -380,17 +339,6 @@ p {
 
 .subtitle {
     width: 90%;
-}
-
-.adaptive-button-general {
-    display: none;
-    z-index: 3;
-}
-
-.video {
-    height: 0;
-    position: relative;
-    padding-bottom: 56.25%;
 }
 
 * {
@@ -428,12 +376,12 @@ header {
     min-height: calc(100vh - 7.563rem);
 }
 
-.button__container .help-button:hover,
+.button__container .optimized-button:hover,
 .join-button:hover {
     background-color: #c743ff;
 }
 
-.button__container .help-button:active,
+.optimized-button:active,
 .join-button:active {
     background-color: #b105f9;
 }

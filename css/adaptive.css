@@ -2,19 +2,11 @@
     html {
         font-size: 15px;
     }
-
-    .nav-first__item {
-        font-size: 9px;
-    }
 }
 
 @media screen and (max-width: 1506px) {
     html {
         font-size: 14px;
-    }
-
-    .nav-first__item {
-        font-size: 8px;
     }
 }
 
@@ -22,20 +14,11 @@
     html {
         font-size: 13px;
     }
-
-    .nav-first__item {
-        font-size: 7px;
-    }
 }
 
 @media screen and (max-width: 1186px) {
     html {
         font-size: 12px;
-    }
-
-    .first__img,
-    .last-img {
-        transform: scale(0.8);
     }
 }
 
@@ -43,20 +26,11 @@
     html {
         font-size: 11px;
     }
-
-    .adaptive-button-general {
-        transform: scale(0.8);
-        z-index: 20;
-    }
 }
 
 @media screen and (max-width: 1044px) {
     .button__container {
         display: none;
-    }
-
-    .adaptive-button-general {
-        transform: scale(0.8);
     }
 
     .menu__item {
@@ -67,7 +41,6 @@
         width: 100%;
     }
 
-    .header-content-wrapper,
     .block-img__wrapper {
         display: none;
     }
@@ -90,7 +63,7 @@
         margin-top: 0.3125rem;
     }
 
-    header {
+    #home {
         background: url(../img/smile-adaptive.svg) no-repeat right;
     }
 
@@ -102,80 +75,9 @@
         background: url(../img/adaptive-cat.svg) no-repeat right;
     }
 
-    .adaptive-menu,
-    .nav__item__responsive {
-        display: flex;
-
-    }
-
-    .adaptive-murr-logo {
-        display: inline-block;
-    }
-
     .adaptive-button__container {
         display: flex;
         justify-content: flex-start;
-    }
-
-    .adaptive-button__item {
-        display: inline-block;
-    }
-
-    .adaptive-button {
-        width: 14.5455rem;
-        height: 14.5455rem;
-        background: #b105f9;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        z-index: -1;
-    }
-
-    .adaptive-button-general {
-        width: 14.5455rem;
-        height: 14.5455rem;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        bottom: 3.6364rem;
-        right: 1.3636rem;
-        cursor: pointer;
-        box-shadow: 0 20px 20px #7506a4;
-
-    }
-
-    .adaptive-button__logo {
-        width: 14.5455rem;
-        height: 14.5455rem;
-        background: #7506a4;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 0;
-        top: 1.1818rem;
-        z-index: -2;
-    }
-
-    .adaptive-button-logo-wraper img {
-        width: 140px;
-        height: 140px;
-        z-index: 1;
-    }
-
-    .adaptive-button-general:active .adaptive-button {
-        bottom: -0.9091rem;
-    }
-
-    .adaptive-button-general:active .adaptive-button-logo-wraper {
-        margin-top: 2.1818rem;
     }
 
     .about-section-content__wrapper {
@@ -206,14 +108,6 @@
         font-size: 10px;
     }
 
-    .adaptive-button-general {
-        transform: scale(0.7);
-    }
-
-    .adaptive-button-logo-wraper img {
-        transform: scale(0.96);
-    }
-
     .join-button,
     .join-button__wrapper,
     .join-button__layer {
@@ -221,33 +115,8 @@
     }
 }
 
-@media screen and (max-width: 410px) {
-
-    .help-button__layer {
-        left: 50%;
-        margin-left: -6.1rem;
-    }
-
-    .adaptive-button-general {
-        z-index: 20;
-    }
-
-    .adaptive-button-general {
-        transform: scale(0.7);
-    }
-
-}
-
 @media screen and (max-width: 408px) {
     html {
         font-size: 8px;
-    }
-
-    .adaptive-button-general {
-        transform: scale(0.6);
-    }
-
-    .adaptive-button-logo-wraper img {
-        transform: scale(0.77);
     }
 }
