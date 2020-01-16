@@ -130,7 +130,7 @@ a {
 
 .menu {
     display: flex;
-    margin-top: 5.5rem;
+    margin-top: 3rem;
     position: relative;
     height: 6rem;
     z-index: 40;
@@ -384,4 +384,141 @@ header {
 .optimized-button:active,
 .join-button:active {
     background-color: #b105f9;
+}
+/* pop up*/
+
+.registration-pop-up__wrapper{
+    width: 45.9375rem;
+    height: 50.875rem;
+    background-color: #060606;
+    position: fixed;
+    left: 50%;
+    margin-left: -22.5rem;
+    top: 50%;
+    margin-top: -25.4rem;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registration-title{
+    color: #ffffff;
+    font-size: 2.75rem; 
+    text-align: center;
+    margin-bottom: 3.125rem;
+}
+.registration-pop-up__container{
+    width: 38.4375rem;
+    height: 34.375rem;
+}
+.remember{
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+.user-data{
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    border: 4px solid #b105f9;
+    border-radius: 15px;
+    text-align: center;
+    background: transparent;
+    color: #989898;
+    font-size: 1.25rem;
+}
+.user-data:first-child{
+    margin-bottom: 3.25rem;
+}
+
+.user-password{
+    margin-bottom: 2.8125rem;
+}
+.chekbox-wrapper {
+    color:#ffffff;
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 1.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.chekbox-wrapper input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 36%;
+    height: 1.3125rem;
+    width: 1.3125rem;
+    background-color: transparent;
+    border: 3px solid #b105f9;
+    border-radius: 6px;
+}
+
+.chekbox-wrapper input:checked ~ .checkmark {
+    background-color: transparent;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.chekbox-wrapper input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.chekbox-wrapper .checkmark:after {
+    left: 0.5rem;
+    top: 0.125rem;
+    width: 0.3125rem;
+    height: 0.625rem;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+button{
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+.go-button{
+    width: 100%;
+}
+.go-button__layer{
+    width: 100%;
+    left: 0;
+    top: 0.5rem;
+    background-color: #7506a4;
+    height: 3.1875rem;
+}
+.go-button__wrapper{
+    margin-top: 2.5rem;
+}
+.registration-pop-up__link{
+    text-decoration: underline;
+    transition: all 0.25s;
+}
+.registration-pop-up__link:last-child{
+    margin-left: 1.1875rem;
+}
+.registration-pop-up__link__wrapper{
+    margin-top: 3.125rem;
+    text-align: center;
+}
+.registration-pop-up__link:hover{
+    color: #b105f9;
 }
