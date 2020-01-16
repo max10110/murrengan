@@ -16,6 +16,8 @@
     }
 }
 
+
+
 @media screen and (max-width: 1186px) {
     html {
         font-size: 12px;
@@ -100,7 +102,25 @@
         justify-content: center;
         margin-bottom: 10rem;
     }
+    .go-button__wrapper{
+        display: block;
+    }
 
+}
+
+@media screen and (max-width: 630px) {
+    .registration-pop-up__wrapper{
+        background-color: transparent;
+    }
+    .pop-up__wrapper{
+        position: relative;
+        background: no-repeat bottom url(../img/background-logo.svg);
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+    .arrow-left__wrapper img{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -118,5 +138,22 @@
 @media screen and (max-width: 408px) {
     html {
         font-size: 8px;
+    }
+    .registration-pop-up__container{
+        width: 33rem;
+    }
+}
+@media screen and (max-width: 330px) {
+    html {
+        font-size: 7px;
+    }
+    .registration-pop-up__container{
+        width: 25rem;
+    }
+    .checkmark{
+        left: 33%;
+    }
+    .chekbox-wrapper .checkmark::after{
+        top: 0.17rem;
     }
 }
