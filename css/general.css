@@ -82,7 +82,14 @@ a {
     margin: 0;
     padding: 0;
 }
+a:active, a:focus { outline: none; }
 
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
 html {
     font-size: 16px;
     overflow-x: hidden;
@@ -388,7 +395,7 @@ header {
 
 /* pop up*/
 
-.registration-pop-up__wrapper {
+.pop-up__wrapper {
     width: 45rem;
     height: 40rem;
     background-color: #060606;
@@ -402,19 +409,22 @@ header {
     align-items: center;
     justify-content: center;
 }
-
-.registration-title {
+.registration-pop-up__wrapper{
+    height: 45rem;
+    margin-top: -22.5rem
+}
+.pop-up__title {
     color: #ffffff;
     font-size: 2.75rem;
     text-align: center;
     margin-bottom: 3.125rem;
 }
 
-.registration-pop-up__container {
+.pop-up__container{
     width: 40rem;
 }
 
-.remember {
+.pop-up__checkbox{
     font-family: Montserrat;
     font-size: 1rem;
 }
@@ -520,21 +530,21 @@ button {
     margin-top: 2.5rem;
 }
 
-.registration-pop-up__link {
+.pop-up__link {
     text-decoration: underline;
     transition: all 0.25s;
 }
 
-.registration-pop-up__link:last-child {
+.pop-up__link:last-child {
     margin-left: 1.1875rem;
 }
 
-.registration-pop-up__link__wrapper {
+.pop-up__link__wrapper {
     margin-top: 3.125rem;
     text-align: center;
 }
 
-.registration-pop-up__link:hover {
+.pop-up__link:hover {
     color: #b105f9;
 }
 .arrow-left__wrapper img{
@@ -551,4 +561,9 @@ button {
     top: 0;
     z-index: -10;
 }
-
+.user-email{
+    margin-bottom: 3.25rem;
+}
+.registration-checkmark{
+    margin-left: -6.4rem;;
+}

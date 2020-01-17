@@ -109,10 +109,10 @@
 }
 
 @media screen and (max-width: 630px) {
-    .registration-pop-up__wrapper{
+    .pop-up__wrapper{
         background-color: transparent;
     }
-    .pop-up__wrapper{
+    .pop-up__section{
         position: relative;
         background: no-repeat bottom url(../img/background-logo.svg);
         min-width: 100vw;
@@ -137,6 +137,9 @@
     .checkmark{
         margin-left: -4.5rem;
     }
+    .registration-checkmark{
+        margin-left: -6.1rem;
+    }
 }
 
 @media screen and (max-width: 408px) {
@@ -146,12 +149,15 @@
     .checkmark{
         margin-left: -4rem;
     }
+    .registration-checkmark{
+        margin-left: -5.7rem;
+    }
 }
 @media screen and (max-width: 330px) {
     html {
         font-size: 7px;
     }
-    .registration-pop-up__container{
+    .pop-up__container{
         width: 30rem;
     }
     .chekbox-wrapper .checkmark::after{
@@ -160,7 +166,10 @@
 }
 
 @media screen and (max-width: 270px) {
-    .registration-pop-up__container{
+    .pop-up__container{
         width: 20rem;
+    }
+    .registration__title{
+        font-size: 1.6rem;
     }
 }
