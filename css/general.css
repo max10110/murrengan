@@ -487,8 +487,8 @@ header {
 }
 
 .chekbox-wrapper .checkmark:after {
-    left: 0.47rem;
-    top: 0.2rem;
+    left: 0.4rem;
+    top: 0.15rem;
     width: 0.3125rem;
     height: 0.625rem;
     border: solid white;
@@ -542,5 +542,13 @@ button {
     margin-left: 4rem;
     margin-top: 3.2rem;
     display: none;
+}
+.content-shadow{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -10;
 }
 
