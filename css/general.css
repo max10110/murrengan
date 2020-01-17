@@ -487,8 +487,8 @@ header {
 }
 
 .chekbox-wrapper .checkmark:after {
-    left: 0.4rem;
-    top: 0.15rem;
+    left: 32%;
+    top: 12%;
     width: 0.3125rem;
     height: 0.625rem;
     border: solid white;
