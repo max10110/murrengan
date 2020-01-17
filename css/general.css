@@ -411,7 +411,7 @@ header {
 }
 
 .registration-pop-up__container {
-    width: 38.4375rem;
+    width: 40rem;
 }
 
 .remember {
@@ -463,12 +463,13 @@ header {
 .checkmark {
     position: absolute;
     top: 0;
-    left: 36.9%;
+    left: 50%;
     height: 1.3125rem;
     width: 1.3125rem;
     background-color: transparent;
     border: 0.1875rem solid #b105f9;
     border-radius: 0.375rem;
+    margin-left: -5rem;
 }
 
 .chekbox-wrapper input:checked~.checkmark {

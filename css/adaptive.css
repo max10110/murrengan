@@ -133,14 +133,18 @@
     .join-button__layer {
         width: 100%;
     }
+
+    .checkmark{
+        margin-left: -4.5rem;
+    }
 }
 
 @media screen and (max-width: 408px) {
     html {
         font-size: 8px;
     }
-    .registration-pop-up__container{
-        width: 33rem;
+    .checkmark{
+        margin-left: -4rem;
     }
 }
 @media screen and (max-width: 330px) {
@@ -148,12 +152,15 @@
         font-size: 7px;
     }
     .registration-pop-up__container{
-        width: 25rem;
-    }
-    .checkmark{
-        left: 33%;
+        width: 30rem;
     }
     .chekbox-wrapper .checkmark::after{
         top: 0.17rem;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .registration-pop-up__container{
+        width: 20rem;
     }
 }
